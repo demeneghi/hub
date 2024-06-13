@@ -1,0 +1,93 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+matches:
+  - trigger: ":espanso"
+    replace: "Hi there!"
+
+  - trigger: "gadm"
+    replace: "gad@aru.com.mx"
+
+  - trigger: "ntg"
+    replace: "  - trigger: \n  replace: "
+
+  - trigger: "gadd"
+    replace: "Gonzalo Amador Demeneghi"
+
+  - trigger: "bds"
+    replace: "Buenos dias"
+
+  - trigger: "bts"
+    replace: "Buenas tardes"
+
+  - trigger: "bns"
+    replace: "Buenas noches"
+
+  - trigger: "gadcel"
+    replace: "2294652304"
+
+  - trigger: "oka"
+    replace: "Aprobado"
+
+  - trigger: "oke"
+    replace: "Enterado"
+
+  - trigger: "aavv"
+    replace: "Adriana Aguirre Villalobos"
+
+  - trigger: "lss"
+    replace: "Quedó listo"
+
+  - trigger: "gadrfc"
+    replace: "AADG840325TZ2"
+
+  - trigger: "arurfc"
+    replace: "ARU850121Q41"
+
+  - trigger: "gadfac"
+    replace: |
+      R.F.C.: AADG840325TZ2
+      Calle: CUITLAHUAC
+      Razón Social: GONZALO AMADOR DEMENEGHI
+      Numero Exterior: 18
+      Colonia: CENTRO
+      Localidad: ISLA
+      Municipio: ISLA
+      Estado: VERACRUZ
+      Código Postal: 95641
+      Email: gad@aru.com.mx
+      Uso del CFDI: GASTOS EN GENERAL
+    no-space: true
+
+  - trigger: "arufac"
+    replace: |
+      R.F.C.: ARU850121Q41
+      Calle: CUITLAHUAC
+      Razón Social: AMADOR RUSSELL
+      Numero Exterior: 18
+      Colonia: CENTRO
+      Localidad: ISLA
+      Municipio: ISLA
+      Estado: VERACRUZ
+      Código Postal: 95640
+      Email: gad@aru.com.mx
+      Uso del CFDI: GASTOS EN GENERAL
+    no-space: true
+
+  - trigger: "amru"
+    replace: "Amador Russell"
+
+  - trigger: "arus"
+    replace: "Amador Russell, S PR de RL"
+
+  - trigger: "csf"
+    replace: "Constancia de situación fiscal"
+
+  - trigger: "sysref"
+    replace: "51102587"
+
+  - trigger: "gf"
+    replace: "g1@g4d.io"
+
+  - trigger: "syscli"
+    replace: "104511025"
